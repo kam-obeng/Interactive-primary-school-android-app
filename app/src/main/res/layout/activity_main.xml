@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/img"
+    >
+
+    <Button
+        android:id="@+id/btnNotes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notes" />
+
+    <Button
+        android:id="@+id/btnQuiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quiz" />
+
+    <!-- Add Calculator Button -->
+    <Button
+        android:id="@+id/btnCalculator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculator"
+        android:onClick="showPopupMenu" />
+
+    <Button
+        android:id="@+id/btnBBC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BBC Bitesize"
+        android:onClick="openWebView" />
+
+
+</LinearLayout>
